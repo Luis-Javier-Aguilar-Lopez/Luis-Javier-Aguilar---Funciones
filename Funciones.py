@@ -68,17 +68,5 @@ calculadora()
 print"\nHacer una función que el usuario introduzca un número y la función debe de desplegar un triángulo de sumas, Como ejemplo, si el usuario manda a la función 4 debeía imprimir el siguiente arreglo"
 print("\nIngrese el numero de filas para la piramide")
 num = input()
-
 for i in range(num):
     print(' ' * (num - i - 1) + "*" * (1 * i + 1))
-
-
-
-
-
-
-
-
-
-
-
